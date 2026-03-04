@@ -13,15 +13,8 @@ home-credit-default-risk/
 │   └── available upon request
 │
 ├── notebooks/
-│   ├── 01_eda.ipynb               # Exploratory data analysis
-│   ├── 02_preprocessing.ipynb     # Cleaning and feature engineering
-│   ├── 03_modelling.ipynb         # Model training and evaluation
-│   └── 04_results.ipynb           # Final results and comparison
-│
-├── src/
-│   ├── preprocessing.py           # Custom transformers
-│   ├── features.py                # Feature engineering functions
-│   └── models.py                  # Model pipeline definitions
+│   ├── 01_eda.ipynb          
+│   └── 02_analysis.ipynb     
 │
 └── README.md
 ```
