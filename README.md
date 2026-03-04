@@ -10,7 +10,7 @@ End-to-end machine learning pipeline predicting loan default probability on real
 home-credit-default-risk/
 │
 ├── data/                          
-│   ├── available upon request
+│   └── available upon request
 │
 ├── notebooks/
 │   ├── 01_eda.ipynb               # Exploratory data analysis
