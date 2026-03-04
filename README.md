@@ -59,9 +59,9 @@ Data source: [Kaggle — Home Credit Default Risk](https://www.kaggle.com/c/home
   three credit bureau sources
 
 ### 3. Preprocessing Pipeline
-- Stratified train/validation/test split (55/25/20)
-- Median imputation fitted on train only
-- Outlier capping at 99th percentile fitted on train only
+- Stratified train/validation/test split
+- Median imputation 
+- Outlier capping at 99th percentile 
 - Ordinal encoding 
 - One hot encoding 
 - StandardScaler 
