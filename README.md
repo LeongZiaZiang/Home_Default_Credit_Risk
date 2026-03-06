@@ -102,19 +102,19 @@ Data source: [Kaggle — Home Credit Default Risk](https://www.kaggle.com/c/home
 
 ## Tech Stack
 
-### Python
-- **pandas, numpy** — data manipulation and numerical operations
-- **scikit-learn** — preprocessing pipelines, model training and evaluation
-- **XGBoost** — gradient boosting classifier
-- **LightGBM** — gradient boosting classifier
-- **matplotlib, seaborn** — data visualisation
-
 ### SQL
 - Raw data extraction from application and bureau tables
 - Column selection and table querying
 - Aggregations per applicant including active and closed credit counts,
   total credit amounts, outstanding debt sums, past default counts,
   and monthly bureau balance summaries
+  
+### Python
+- **pandas, numpy** — data manipulation and numerical operations
+- **scikit-learn** — preprocessing pipelines, model training and evaluation
+- **XGBoost** — gradient boosting classifier
+- **LightGBM** — gradient boosting classifier
+- **matplotlib, seaborn** — data visualisation
 
 ## Acknowledgements
 - [Home Credit Group](https://www.homecredit.net/) for providing 
