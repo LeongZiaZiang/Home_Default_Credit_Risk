@@ -84,8 +84,8 @@ Data source: [Kaggle — Home Credit Default Risk](https://www.kaggle.com/c/home
 ---
 
 ## Results
-|  |  ROC-AUC |
-| | Validation  | Test |
+| --- |  ROC-AUC |
+| --- | Validation  | Test |
 | Model | GridSearch | RandomSearch | GridSearch | RandomSearch |
 |---|---|
 | Logistic Regression | 0.7496 | | | |
