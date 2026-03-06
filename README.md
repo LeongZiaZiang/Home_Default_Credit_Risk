@@ -7,12 +7,17 @@ End-to-end machine learning pipeline predicting loan default probability on real
 
 ## Project Structure
 ```
-home-credit-default-risk/
+Home_Default_Credit_Risk/
 │
-├── data/                          
-│   └── available upon request
+├── sql/                          
+│   ├── staging
+│   │   ├── 01_create_tables.sql
+│   │   └── 02_load_data.sql
+│   │
+│   └── analytics
+│       └── 01_fact_table.sql
 │
-├── notebooks/
+├── python/
 │   ├── 01_eda.ipynb          
 │   └── 02_analysis.ipynb     
 │
