@@ -82,11 +82,11 @@ Data source: [Kaggle — Home Credit Default Risk](https://www.kaggle.com/c/home
 
 | Model | Validation ROC-AUC |
 |---|---|
-| Logistic Regression | 0.7421 |
-| Decision Tree | 0.7073 |
-| Random Forest | TBD |
-| XGBoost | TBD |
-| LightGBM | TBD |
+| Logistic Regression | 0.7496 |
+| Decision Tree | 0.7089 |
+| Random Forest | 0.7158 |
+| LightGBM | 0.7677 |
+| XGBoost | 0.7698 |
 
 ---
 
