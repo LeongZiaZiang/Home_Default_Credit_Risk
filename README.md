@@ -87,20 +87,20 @@ Data source: [Kaggle — Home Credit Default Risk](https://www.kaggle.com/c/home
 RandomSearch:
 | Model | Validation | Test | 
 |---|---|---|
-| Logistic Regression | TBD | TBD | 
-| Decision Tree | TBD | TBD |
-| Random Forest | TBD | TBD | 
-| LightGBM | TBD | TBD | 
-| XGBoost | TBD | TBD | 
+| Logistic Regression | 0.7356 | 0.7301 | 
+| Decision Tree | 0.7145 | 0.7116 |
+| Random Forest | 0.7193 | 0.7143 | 
+| LightGBM | 0.7693 | 0.7616 | 
+| XGBoost | 0.7682 | 0.7567 | 
 
 GridSearch:
 | Model | Validation | Test | 
 |---|---|---|
-| Logistic Regression | 0.7496 |TBD | 
-| Decision Tree | 0.7089 | TBD |
-| Random Forest | 0.7158 | TBD | 
-| LightGBM | 0.7677 | TBD | 
-| XGBoost | 0.7698 | TBD | 
+| Logistic Regression | 0.7496 |0.7445 | 
+| Decision Tree | 0.7146 | 0.7106 |
+| Random Forest | 0.7145 | 0.7108 | 
+| LightGBM | 0.7684 | 0.7611 | 
+| XGBoost | 0.7708 | 0.7615 | 
 
 ---
 
