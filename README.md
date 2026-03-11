@@ -23,6 +23,9 @@ Home_Default_Credit_Risk/
 │   ├── 03_results.ipynb          
 │   └── 04_presentation.ipynb               
 │
+├── submission/
+│   └──submission.csv
+│
 └── README.md
 ```
 
