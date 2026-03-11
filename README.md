@@ -108,6 +108,7 @@ GridSearch:
 
 ## Key Findings
 
+Under our optimal XGBoost model, `ext_source_2`, `ext_source_3` and `ext_source_1` significantly drives the prediction of default rate. Other notable features are found such as `loan_to_value` ratio, `amt_good_price`, `amt_annuity`, `education_level` and `total_active_credit`.
 
 ---
 
@@ -126,6 +127,7 @@ GridSearch:
 - **XGBoost** — gradient boosting classifier
 - **LightGBM** — gradient boosting classifier
 - **matplotlib, seaborn** — data visualisation
+- **shap** - feature importance visualization
 
 ## Acknowledgements
 - [Home Credit Group](https://www.homecredit.net/) for providing 
