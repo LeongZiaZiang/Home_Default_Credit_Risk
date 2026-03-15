@@ -111,8 +111,19 @@ GridSearch:
 
 ## Key Findings
 
-Under our optimal XGBoost model, `ext_source_2`, `ext_source_3` and `ext_source_1` significantly drives the prediction of default rate. Other notable features are found such as `loan_to_value` ratio, `amt_good_price`, `amt_annuity`, `education_level` and `total_active_credit`.
+- `ext_source_2` , `ext_source_3` , `ext_source_1` : Higher external scores reduced default risk and vice versa.
 
+- `education level` : lower education level increased default risk.
+
+- `age`: younger customers increases default probability. Older customers are more financially stable borrowers, consistent with general credit risk intuition.
+
+- `employment_age_ratio`: higher ratio reduces default risk. Customers who have been employed longer relative to their age are more reliable borrowers. This validates the engineered feature as a meaningful predictor beyond raw `days_employed` alone.
+
+- `total_active_credit`: high active credit increases default risk. Customers juggling many active credits are more likely to default. Makes intuitive sense.
+
+- `flag_own_car_True`: customer owning a car reduces default risk. Car ownership is a proxy for asset ownership and financial stability.
+
+- `active_count`: one outlier dot pushing far right — a customer with extremely high number of active loans is very high risk. Worth flagging.
 ---
 
 ## Tech Stack
