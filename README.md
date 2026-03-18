@@ -92,38 +92,36 @@ Data source: [Kaggle — Home Credit Default Risk](https://www.kaggle.com/c/home
 RandomSearch:
 | Model | Validation | Test | 
 |---|---|---|
-| Logistic Regression | 0.7359 | 0.7305 | 
-| Decision Tree | 0.7162 | 0.7147 |
-| Random Forest | 0.7193 | 0.7143 | 
-| LightGBM | 0.7699 | 0.7616 | 
-| XGBoost | 0.7689 | 0.7592 | 
+| Logistic Regression | 0.7499 | 0.7456 | 
+| Decision Tree | 0.7257 | 0.7250 |
+| Random Forest | 0.7565 | 0.7516 | 
+| LightGBM | 0.7687 | 0.7609 | 
+| XGBoost | 0.7687 | 0.7598 | 
 
 GridSearch:
 | Model | Validation | Test | 
 |---|---|---|
-| Logistic Regression | 0.7496 |0.7445 | 
-| Decision Tree | 0.7146 | 0.7106 |
-| Random Forest | 0.7145 | 0.7108 | 
-| LightGBM | 0.7684 | 0.7611 | 
-| XGBoost | 0.7704 | 0.7615 | 
+| Logistic Regression | 0.7498 |0.7456 | 
+| Decision Tree | 0.7143 | 0.7139 |
+| Random Forest | 0.7554 | 0.7510 | 
+| LightGBM | 0.7672 | 0.7600 | 
+| XGBoost | 0.7695 | 0.7610 | 
 
 ---
 
 ## Key Findings
 
-- `ext_source_2` , `ext_source_3` , `ext_source_1` : Higher external scores reduced default risk and vice versa.
+- `ext_source_mean`, `ext_source_2` , `ext_source_3` , `ext_source_1` : Higher external scores signals lower default risk and vice versa.
 
-- `education level` : lower education level increased default risk.
-
-- `age`: younger customers increases default probability. Older customers are more financially stable borrowers, consistent with general credit risk intuition.
+- `loan_to_value`: higher ratio higher default risk and vice versa
 
 - `employment_age_ratio`: higher ratio reduces default risk. Customers who have been employed longer relative to their age are more reliable borrowers. This validates the engineered feature as a meaningful predictor beyond raw `days_employed` alone.
 
-- `total_active_credit`: high active credit increases default risk. Customers juggling many active credits are more likely to default. Makes intuitive sense.
-
 - `flag_own_car_True`: customer owning a car reduces default risk. Car ownership is a proxy for asset ownership and financial stability.
 
-- `active_count`: one outlier dot pushing far right — a customer with extremely high number of active loans is very high risk. Worth flagging.
+- `active_count`: customer with high number of active loans is very high risk.
+
+- `credit_utilization_ratio`: higher ratio signals high default risk. Customer exhausting all credits pose higher risk of default.
 ---
 
 ## Tech Stack
